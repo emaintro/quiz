@@ -5,6 +5,7 @@ stolice = {'mazowieckiego' : 'Warszawa', 'pomorskiego' : 'Gdańsk', 'zachodnio-p
             'małopolskiego' : 'Kraków', 'opolskiego' : 'Opole', 'śląskiego' :  'Katowice', 'podkarpackiego' : 'Rzeszów', 'lubuskiego' : 'Gorzów Wielkopolski',
             'lubelskiego' : 'Lublin', 'świętokrzyskiego' : 'Kielce', 'łódzkiego' : 'Łódź'}
 
+
 for quizNum in range(5):
 
     quizFile = open('stolicequiz{}.txt'.format(quizNum + 1), 'w', encoding='windows-1250')
